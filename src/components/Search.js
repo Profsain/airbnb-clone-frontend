@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import '../styles/Search.css'
 import { DateRangePicker } from 'react-date-range'
 import 'react-date-range/dist/styles.css' //date picker styles
@@ -9,6 +10,7 @@ import PeopleIcon from '@material-ui/icons/People'
 
 //Date picker search component
 function Search() {
+    const navigate = useNavigate()
     const [startDate, setStartDate] = useState(new Date())
     const [endDate, setEndDate] = useState(new Date())
     const selectionRange = {
@@ -36,7 +38,10 @@ function Search() {
                 defaultValue={2}
                 type='number'
             />
-            <Button>Search Airbnb</Button>
+            <Button
+                onClick={() => navigate('/search')}
+                variant='outlined'
+            >Search Airbnb</Button>
         </div>
     )
 }
