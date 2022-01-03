@@ -1,0 +1,52 @@
+.search {
+    position: absolute;
+    top: 35px;
+    left: 29%;
+    width: 100vw;
+}
+
+.search > h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 559px;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 380px;
+}
+.search > PeopleIcon {
+    display: inline;
+}
+
+.search > input {
+    position: absolute;
+    left: 0;
+    top: 420px;
+    height: 30px;
+    border: none;
+    width: 539px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.search >input:focus {
+    outline-width: 0;
+}
+
+.search > Button {
+    position: absolute;
+    left: 0;
+    top: 480px;
+    text-transform: inherit !important;
+    width: 579px;
+    background-color: #ff7779;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+.search > Button:hover {
+    background-color: white;
+    color: #ff7779;
+}
