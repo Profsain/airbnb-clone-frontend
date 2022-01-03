@@ -5,11 +5,19 @@ No right reserved - this is just a clone of Airbnb clone frontend. Practicing Re
 ## Skills Implemented:
 
 ### Create-react-app
+
 ### Functional Component
+
 ### Material-ui Icons and Button
+
 ### React Date-picker library
+
 ### React Router
+
 ### Github deployment
-### React App Github page hosting
+
+### Heroku Hosting
 
 ### Live Airbnb Clone Link:
+
+    https://airbnb-clone-frontend-app.herokuapp.com/
